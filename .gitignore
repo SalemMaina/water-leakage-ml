@@ -1,0 +1,40 @@
+# ── Virtual environment ──────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Data files (too large for GitHub) ───────────────────────
+data/
+*.csv
+*.xlsx
+*.xls
+*.inp
+*.pkl
+
+# ── Jupyter notebook checkpoints ────────────────────────────
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ── Python cache ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── VS Code settings ─────────────────────────────────────────
+.vscode/
+
+# ── OS files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Model files (too large for GitHub) ───────────────────────
+*.pkl
+*.joblib
+*.h5
+
+# ── Logs and temporary files ─────────────────────────────────
+*.log
+*.tmp
+*.temp
