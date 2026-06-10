@@ -120,7 +120,7 @@ def processing_loop():
                     )
 
                     # ── Step 4: Send alert if leak detected ──────
-                    if label in [1, 2]:
+                    if label in [1, 2] and result["confidence"] > 0.85:
                         latest_flow = float(df.iloc[-1].get("flow", 0.0))
 
                         message = generate_message(

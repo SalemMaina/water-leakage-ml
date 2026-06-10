@@ -1,9 +1,9 @@
 # Sensor readings API
-SENSOR_API_URL  = "https://caa8-102-213-250-129.ngrok-free.app/api/v1/sensor-readings"
+SENSOR_API_URL  = "https://370c-129-222-187-199.ngrok-free.app/api/v1/sensor-readings?size=50&sort=receivedAt,desc"
 SENSOR_API_TOKEN = "hydromap-ml-key-2026"  #the backend token
 
 # Backend alert API
-BACKEND_URL  = "https://caa8-102-213-250-129.ngrok-free.app"
+BACKEND_URL  = "https://370c-129-222-187-199.ngrok-free.app"
 ML_TOKEN     = "hydromap-ml-key-2026"
 
 # Polling interval in seconds
